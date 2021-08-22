@@ -3,7 +3,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class PrivacyAndPolicyPage {   //*[@id="mw-revision-info"]
+public class PrivacyAndPolicyPage {
     WebDriver driver;
 
 

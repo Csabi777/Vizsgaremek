@@ -1,8 +1,9 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-public class MainPage {    //*[@id="p-lang"]/button
+public class MainPage {
     WebDriver driver;
 
     public final By LOGINBUTTON = By.xpath("//*[@id='pt-login']/a");
@@ -14,7 +15,8 @@ public class MainPage {    //*[@id="p-lang"]/button
     public final By THEARTSLINK = By.xpath("//*[@id=\"mp-portals\"]/li[1]/a");
     public final By PREFERENCES = By.xpath("//*[@id=\"pt-preferences\"]/a");
     public final By SETTINGSBUTTON = By.xpath("//*[@id=\"p-lang\"]/button");
-
+    public final By JOINBUTTON = By.xpath("//*[@id=\"mw-createaccount-join\"]");
+    public final By SEARCHINPUT = By.xpath("//*[@id=\"searchInput\"]");
 
 
 
@@ -67,5 +69,14 @@ public class MainPage {    //*[@id="p-lang"]/button
 
     public void clickSettings(){
         driver.findElement(SETTINGSBUTTON).click();
+    }
+
+    public void clickJoinButton(){
+        driver.findElement(JOINBUTTON).click();
+    }
+
+    public void writeInSearchInput(String search){
+        driver.findElement(SEARCHINPUT).sendKeys(search);
+        driver.findElement(SEARCHINPUT).sendKeys(Keys.ENTER);
     }
 }

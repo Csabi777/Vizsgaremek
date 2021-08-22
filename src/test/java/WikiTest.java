@@ -44,6 +44,27 @@ public class WikiTest {
     }
 
 
+    @Disabled
+    @Test
+    @DisplayName("0 Regisztráció")
+    public void testRegistration() throws InterruptedException {
+        MainPage mainPage = new MainPage(driver);
+        RegistrationPage registrationPage = new RegistrationPage(driver);
+        mainPage.clickLoginButton();
+        mainPage.clickJoinButton();
+        String name = "Tesztuser123454321";
+        String password = "TesztJelszo12345543221";
+        String capcha = "valamivalami";
+        registrationPage.addName(name);
+        registrationPage.addPassword(password);
+        registrationPage.confirmPassword(password);
+        registrationPage.writeCapcha(capcha);
+        registrationPage.clickCreateAcc();
+        Thread.sleep(200);
+    }
+
+
+
     @Test
     @DisplayName("1 Bejelentkezés")
     public void testLogin() throws InterruptedException {
@@ -231,12 +252,12 @@ public class WikiTest {
 
     }
 
+
     @Test
     @DisplayName("9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése")
     public void testDeleteData() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         PreferencesPage preferencesPage = new PreferencesPage(driver);
-        WebDriverWait wait = new WebDriverWait(driver, 10);
         mainPage.clickLoginButton();
         String username = "KissBela123";
         String password = "TNY=-pG.8T*gNGv";
@@ -248,7 +269,7 @@ public class WikiTest {
         preferencesPage.clickUserProfile();
         Thread.sleep(1000);
         preferencesPage.deleteSignatureKeys();
-        /*preferencesPage.setSignature("");*/
+        //preferencesPage.setSignature("");
         Thread.sleep(2000);
         preferencesPage.clickSaveButton();
 
@@ -259,6 +280,22 @@ public class WikiTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
+    @Test
+    @DisplayName("10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása")
+    public void testSearchCount() throws InterruptedException {
+        MainPage mainPage = new MainPage(driver);
+        SearchResult searchResult = new SearchResult(driver);
+        String search = "Kosztolányi";
+        mainPage.writeInSearchInput(search);
+        Thread.sleep(1000);
+        String word = "Dezső";
+        int actual = searchResult.searchWord(word);
+        int expected = 29;
+
+        Assertions.assertEquals(expected, actual);
+    }
+
 
 
 

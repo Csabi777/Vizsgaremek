@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class LanguageSettingPage {      //*[@id="language-settings-dialog"]/div[3]/div/button[2]
+public class LanguageSettingPage {
     WebDriver driver;
 
     public final By FONTSBUTTON = By.xpath("//*[@id=\"uls-display-settings-fonts-tab\"]");
