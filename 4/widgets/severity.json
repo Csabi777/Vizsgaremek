@@ -1,0 +1,111 @@
+[ {
+  "uid" : "6a8b2b2173569810",
+  "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+  "time" : {
+    "start" : 1629717640140,
+    "stop" : 1629717640291,
+    "duration" : 151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6f5dfe12f9e4065e",
+  "name" : "1 Bejelentkezés",
+  "time" : {
+    "start" : 1629717639973,
+    "stop" : 1629717640130,
+    "duration" : 157
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2279dd037b46f20b",
+  "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+  "time" : {
+    "start" : 1629717641073,
+    "stop" : 1629717641207,
+    "duration" : 134
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4bbda390c71dc645",
+  "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+  "time" : {
+    "start" : 1629717640631,
+    "stop" : 1629717640765,
+    "duration" : 134
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a8dccfc6b399bb07",
+  "name" : "3 Kijelentkezés",
+  "time" : {
+    "start" : 1629717640913,
+    "stop" : 1629717641063,
+    "duration" : 150
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "748b686d2ab6bd95",
+  "name" : "5 Adatok listázása - kiratás",
+  "time" : {
+    "start" : 1629717640304,
+    "stop" : 1629717640442,
+    "duration" : 138
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e08ea2c6e99dd0a",
+  "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+  "time" : {
+    "start" : 1629717639800,
+    "stop" : 1629717639958,
+    "duration" : 158
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24519ab819b48bbe",
+  "name" : "2 Bejelentkezés - adatok külső fileból",
+  "time" : {
+    "start" : 1629717640469,
+    "stop" : 1629717640622,
+    "duration" : 153
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cfec190630c8404a",
+  "name" : "0 Regisztráció",
+  "time" : {
+    "start" : 1629717640458,
+    "stop" : 1629717640458,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "511ef8ae860a0d17",
+  "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+  "time" : {
+    "start" : 1629717639326,
+    "stop" : 1629717639740,
+    "duration" : 414
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d7d396e386148bfc",
+  "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+  "time" : {
+    "start" : 1629717640777,
+    "stop" : 1629717640910,
+    "duration" : 133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

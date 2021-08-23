@@ -1,0 +1,152 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "WikiTest",
+    "children" : [ {
+      "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+      "uid" : "511ef8ae860a0d17",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717639326,
+        "stop" : 1629717639740,
+        "duration" : 414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+      "uid" : "3e08ea2c6e99dd0a",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717639800,
+        "stop" : 1629717639958,
+        "duration" : 158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "1 Bejelentkezés",
+      "uid" : "6f5dfe12f9e4065e",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717639973,
+        "stop" : 1629717640130,
+        "duration" : 157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+      "uid" : "6a8b2b2173569810",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717640140,
+        "stop" : 1629717640291,
+        "duration" : 151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "5 Adatok listázása - kiratás",
+      "uid" : "748b686d2ab6bd95",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717640304,
+        "stop" : 1629717640442,
+        "duration" : 138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "0 Regisztráció",
+      "uid" : "cfec190630c8404a",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1629717640458,
+        "stop" : 1629717640458,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "2 Bejelentkezés - adatok külső fileból",
+      "uid" : "24519ab819b48bbe",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717640469,
+        "stop" : 1629717640622,
+        "duration" : 153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+      "uid" : "4bbda390c71dc645",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717640631,
+        "stop" : 1629717640765,
+        "duration" : 134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+      "uid" : "d7d396e386148bfc",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717640777,
+        "stop" : 1629717640910,
+        "duration" : 133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "3 Kijelentkezés",
+      "uid" : "a8dccfc6b399bb07",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717640913,
+        "stop" : 1629717641063,
+        "duration" : 150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+      "uid" : "2279dd037b46f20b",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629717641073,
+        "stop" : 1629717641207,
+        "duration" : 134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e63eb394ea6d91bc5c07392e610d54d"
+  } ],
+  "name" : "suites"
+}
