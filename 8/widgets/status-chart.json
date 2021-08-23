@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3152ec06d082c834",
+  "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+  "time" : {
+    "start" : 1629720948885,
+    "stop" : 1629720956814,
+    "duration" : 7929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35f22bbf62050b53",
+  "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+  "time" : {
+    "start" : 1629720913991,
+    "stop" : 1629720935644,
+    "duration" : 21653
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ef5f96a60aaf3e3",
+  "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+  "time" : {
+    "start" : 1629720968461,
+    "stop" : 1629720972713,
+    "duration" : 4252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd80c2960e85cb77",
+  "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+  "time" : {
+    "start" : 1629720939792,
+    "stop" : 1629720942670,
+    "duration" : 2878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c18d95d669a47a46",
+  "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+  "time" : {
+    "start" : 1629720879992,
+    "stop" : 1629720913893,
+    "duration" : 33901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55fcc269498f3a3c",
+  "name" : "0 Regisztráció",
+  "time" : {
+    "start" : 1629720944771,
+    "stop" : 1629720944771,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6379959a28ad0a3f",
+  "name" : "3 Kijelentkezés",
+  "time" : {
+    "start" : 1629720963272,
+    "stop" : 1629720968459,
+    "duration" : 5187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f653b1c4cae7ff2",
+  "name" : "5 Adatok listázása - kiratás",
+  "time" : {
+    "start" : 1629720942676,
+    "stop" : 1629720944766,
+    "duration" : 2090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b0bc4a07d7cdadb",
+  "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+  "time" : {
+    "start" : 1629720956817,
+    "stop" : 1629720963268,
+    "duration" : 6451
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "92404de122c7403b",
+  "name" : "1 Bejelentkezés",
+  "time" : {
+    "start" : 1629720935655,
+    "stop" : 1629720939789,
+    "duration" : 4134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c85a43b6c187626",
+  "name" : "2 Bejelentkezés - adatok külső fileból",
+  "time" : {
+    "start" : 1629720944777,
+    "stop" : 1629720948882,
+    "duration" : 4105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
