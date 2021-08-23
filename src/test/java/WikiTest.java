@@ -33,13 +33,15 @@ public class WikiTest {
     public void setDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
-        // options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("incognito");
         options.addArguments("--disable-gpu", "--ignore-certificate-errors", "--disable-extensions", "--disable-dev-shm-usage");
         options.addArguments("window-size=1200,730");
+        options.addArguments("--disable-notifications");
+        options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
-        // driver.manage().window().maximize();
+
 
     }
 
@@ -258,19 +260,18 @@ public class WikiTest {
     public void testDeleteData() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         PreferencesPage preferencesPage = new PreferencesPage(driver);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         mainPage.clickLoginButton();
         String username = "KissBela123";
         String password = "TNY=-pG.8T*gNGv";
         mainPage.sendUsername(username);
         mainPage.sendPassword(password);
         mainPage.clickBlueLoginButton();
-        Thread.sleep(1000);
         mainPage.clickPreferences();
+        wait.until((ExpectedConditions.elementToBeClickable(preferencesPage.USERPROFILE)));
         preferencesPage.clickUserProfile();
-        Thread.sleep(1000);
-        preferencesPage.deleteSignatureKeys();
-        //preferencesPage.setSignature("");
-        Thread.sleep(2000);
+        wait.until((ExpectedConditions.elementToBeClickable(preferencesPage.SIGNATUREINPUT)));
+        driver.findElement(preferencesPage.SIGNATUREINPUT).clear();
         preferencesPage.clickSaveButton();
 
 
@@ -291,12 +292,10 @@ public class WikiTest {
         Thread.sleep(1000);
         String word = "Dezső";
         int actual = searchResult.searchWord(word);
-        int expected = 29;
+        int expected = 39;
 
         Assertions.assertEquals(expected, actual);
     }
-
-
 
 
 

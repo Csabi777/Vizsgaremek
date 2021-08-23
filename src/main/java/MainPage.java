@@ -60,6 +60,7 @@ public class MainPage {
     }
 
     public void clickTheArtsLink() {
+
         driver.findElement(THEARTSLINK).click();
     }
 
