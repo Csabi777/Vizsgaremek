@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+    "uid" : "7223924a2bd6e659",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718143138,
+      "stop" : 1629718143649,
+      "duration" : 511
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+    "uid" : "b1896571a37bf289",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718143726,
+      "stop" : 1629718143878,
+      "duration" : 152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "1 Bejelentkezés",
+    "uid" : "3e5d4b9abae44325",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718143886,
+      "stop" : 1629718144025,
+      "duration" : 139
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+    "uid" : "e724ed5923787558",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144034,
+      "stop" : 1629718144186,
+      "duration" : 152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "5 Adatok listázása - kiratás",
+    "uid" : "414af4349cbaeb16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144192,
+      "stop" : 1629718144334,
+      "duration" : 142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0 Regisztráció",
+    "uid" : "6973ea4fdb0e3cba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1629718144359,
+      "stop" : 1629718144359,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "2 Bejelentkezés - adatok külső fileból",
+    "uid" : "12b2dfdf02090bd1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144368,
+      "stop" : 1629718144507,
+      "duration" : 139
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+    "uid" : "b7eb1f9e890d0c88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144512,
+      "stop" : 1629718144668,
+      "duration" : 156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+    "uid" : "17bc174c0f75e63a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144678,
+      "stop" : 1629718144825,
+      "duration" : 147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "3 Kijelentkezés",
+    "uid" : "c032323e64b2c1fa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144829,
+      "stop" : 1629718144985,
+      "duration" : 156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+    "uid" : "262577d9e08ad1a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629718144992,
+      "stop" : 1629718145131,
+      "duration" : 139
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

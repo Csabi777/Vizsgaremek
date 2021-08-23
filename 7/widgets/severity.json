@@ -1,0 +1,111 @@
+[ {
+  "uid" : "262577d9e08ad1a2",
+  "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+  "time" : {
+    "start" : 1629718144992,
+    "stop" : 1629718145131,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "414af4349cbaeb16",
+  "name" : "5 Adatok listázása - kiratás",
+  "time" : {
+    "start" : 1629718144192,
+    "stop" : 1629718144334,
+    "duration" : 142
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7223924a2bd6e659",
+  "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+  "time" : {
+    "start" : 1629718143138,
+    "stop" : 1629718143649,
+    "duration" : 511
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b1896571a37bf289",
+  "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+  "time" : {
+    "start" : 1629718143726,
+    "stop" : 1629718143878,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7eb1f9e890d0c88",
+  "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+  "time" : {
+    "start" : 1629718144512,
+    "stop" : 1629718144668,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "12b2dfdf02090bd1",
+  "name" : "2 Bejelentkezés - adatok külső fileból",
+  "time" : {
+    "start" : 1629718144368,
+    "stop" : 1629718144507,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e724ed5923787558",
+  "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+  "time" : {
+    "start" : 1629718144034,
+    "stop" : 1629718144186,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c032323e64b2c1fa",
+  "name" : "3 Kijelentkezés",
+  "time" : {
+    "start" : 1629718144829,
+    "stop" : 1629718144985,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17bc174c0f75e63a",
+  "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+  "time" : {
+    "start" : 1629718144678,
+    "stop" : 1629718144825,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e5d4b9abae44325",
+  "name" : "1 Bejelentkezés",
+  "time" : {
+    "start" : 1629718143886,
+    "stop" : 1629718144025,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6973ea4fdb0e3cba",
+  "name" : "0 Regisztráció",
+  "time" : {
+    "start" : 1629718144359,
+    "stop" : 1629718144359,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
