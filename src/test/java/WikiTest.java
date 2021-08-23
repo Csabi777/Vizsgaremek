@@ -209,23 +209,22 @@ public class WikiTest {
         MainPage mainPage = new MainPage(driver);
         PreferencesPage preferencesPage = new PreferencesPage(driver);
         WebDriverWait wait = new WebDriverWait(driver, 10);
+
         mainPage.clickLoginButton();
         String username = "KissBela123";
         String password = "TNY=-pG.8T*gNGv";
         mainPage.sendUsername(username);
         mainPage.sendPassword(password);
         mainPage.clickBlueLoginButton();
-        Thread.sleep(1000);
         mainPage.clickPreferences();
+        wait.until((ExpectedConditions.elementToBeClickable(preferencesPage.USERPROFILE)));
         preferencesPage.clickUserProfile();
-        Thread.sleep(1000);
-        preferencesPage.setSignature("Ez egy teszt aláírás 321321");
-        Thread.sleep(1000);
+        wait.until((ExpectedConditions.elementToBeClickable(preferencesPage.SIGNATUREINPUT)));
+        preferencesPage.setSignature("Ez egy teszt aláírás 3210123");
         preferencesPage.clickSaveButton();
-        Thread.sleep(2000);
 
         String actual = driver.findElement(By.xpath("//*[@id=\"mw-htmlform-signature\"]/div[1]/div/div/label/a[1]")).getText();
-        String expected = "Ez egy teszt aláírás 321321";
+        String expected = "Ez egy teszt aláírás 3210123";
 
         Assertions.assertEquals(expected, actual);
 
