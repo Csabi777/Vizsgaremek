@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az47-486",
+    "children" : [ {
+      "name" : "3455@fv-az47-486.ForkJoinPool-1-worker-3(16)",
+      "children" : [ {
+        "name" : "1 Bejelentkezés",
+        "uid" : "8d8e72c226baf037",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717933861,
+          "stop" : 1629717934007,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "0 Regisztráció",
+        "uid" : "1260c1ac8ffa5179",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629717934433,
+          "stop" : 1629717934433,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+        "uid" : "2c72bb87d6c1f69d",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717934016,
+          "stop" : 1629717934239,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "5 Adatok listázása - kiratás",
+        "uid" : "a6903c125bf1eb7c",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717934259,
+          "stop" : 1629717934422,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+        "uid" : "efae8e90b2855afe",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717934756,
+          "stop" : 1629717934891,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+        "uid" : "33e8004953f94e2f",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717933118,
+          "stop" : 1629717933596,
+          "duration" : 478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+        "uid" : "9bbf98469b2e7951",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717934594,
+          "stop" : 1629717934750,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+        "uid" : "e847e8206fd7c2b7",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717935041,
+          "stop" : 1629717935195,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+        "uid" : "4749372e2c8321",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717933684,
+          "stop" : 1629717933844,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "3 Kijelentkezés",
+        "uid" : "4b94a240abad46e5",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717934895,
+          "stop" : 1629717935036,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2 Bejelentkezés - adatok külső fileból",
+        "uid" : "e97458cf7993fdb3",
+        "parentUid" : "1bf8681fbbdcbe4eddbc96f9d233f837",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629717934451,
+          "stop" : 1629717934589,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bf8681fbbdcbe4eddbc96f9d233f837"
+    } ],
+    "uid" : "8b665f6047917d88a8b13b6894530b0f"
+  } ],
+  "name" : "timeline"
+}
