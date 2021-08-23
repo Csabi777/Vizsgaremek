@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <39> but was: <29>",
+      "children" : [ {
+        "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+        "uid" : "ef5ef21c345bb712",
+        "parentUid" : "302bc08d5e89d69b216578fef07ca8f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629725294103,
+          "stop" : 1629725316686,
+          "duration" : 22583
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "302bc08d5e89d69b216578fef07ca8f9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

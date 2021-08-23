@@ -1,0 +1,178 @@
+{
+  "uid" : "ef5ef21c345bb712",
+  "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+  "fullName" : "WikiTest.testSearchCount",
+  "historyId" : "69182144996040d163a6b34918e90031",
+  "time" : {
+    "start" : 1629725294103,
+    "stop" : 1629725316686,
+    "duration" : 22583
+  },
+  "description" : "",
+  "status" : "failed",
+  "statusMessage" : "expected: <39> but was: <29>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <39> but was: <29>\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)\n\tat WikiTest.testSearchCount(WikiTest.java:296)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:117)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629725259205,
+      "stop" : 1629725259577,
+      "duration" : 372
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629725294104,
+      "stop" : 1629725294344,
+      "duration" : 240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629725316611,
+      "stop" : 1629725316684,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "4080@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WikiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WikiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchCount"
+  }, {
+    "name" : "suite",
+    "value" : "WikiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c2734b263bee964c",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/9//#testresult/c2734b263bee964c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629723679120,
+          "stop" : 1629723709523,
+          "duration" : 30403
+        }
+      }, {
+        "uid" : "35f22bbf62050b53",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/8//#testresult/35f22bbf62050b53",
+        "status" : "failed",
+        "statusDetails" : "expected: <39> but was: <29>",
+        "time" : {
+          "start" : 1629720913991,
+          "stop" : 1629720935644,
+          "duration" : 21653
+        }
+      }, {
+        "uid" : "b1896571a37bf289",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/7//#testresult/b1896571a37bf289",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55ecefd69a63 <unknown>\n#1 0x55ecefade458 <unknown>\n#2 0x55ecefb012e3 <unknown>\n#3 0x55ecefafce9f <unknown>\n#4 0x55ecefb36b72 <unknown>\n#5 0x55ecefb30fd3 <unknown>\n#6 0x55ecefb07514 <unknown>\n#7 0x55ecefb08505 <unknown>\n#8 0x55ecefd95e2e <unknown>\n#9 0x55ecefdab886 <unknown>\n#10 0x55ecefd96d75 <unknown>\n#11 0x55ecefdacd94 <unknown>\n#12 0x55ecefd8d8eb <unknown>\n#13 0x55ecefdc7cd8 <unknown>\n#14 0x55ecefdc7e58 <unknown>\n#15 0x55ecefde1dfd <unknown>\n#16 0x7f1bfc137609 start_thread\n",
+        "time" : {
+          "start" : 1629718143726,
+          "stop" : 1629718143878,
+          "duration" : 152
+        }
+      }, {
+        "uid" : "4749372e2c8321",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/6//#testresult/4749372e2c8321",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.160', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55caf5138a63 <unknown>\n#1 0x55caf4ead458 <unknown>\n#2 0x55caf4ed02e3 <unknown>\n#3 0x55caf4ecbe9f <unknown>\n#4 0x55caf4f05b72 <unknown>\n#5 0x55caf4efffd3 <unknown>\n#6 0x55caf4ed6514 <unknown>\n#7 0x55caf4ed7505 <unknown>\n#8 0x55caf5164e2e <unknown>\n#9 0x55caf517a886 <unknown>\n#10 0x55caf5165d75 <unknown>\n#11 0x55caf517bd94 <unknown>\n#12 0x55caf515c8eb <unknown>\n#13 0x55caf5196cd8 <unknown>\n#14 0x55caf5196e58 <unknown>\n#15 0x55caf51b0dfd <unknown>\n#16 0x7f4b30aa0609 start_thread\n",
+        "time" : {
+          "start" : 1629717933684,
+          "stop" : 1629717933844,
+          "duration" : 160
+        }
+      }, {
+        "uid" : "4f6af4c679f55b78",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/5//#testresult/4f6af4c679f55b78",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-980', ip: '10.1.1.29', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x560587162a63 <unknown>\n#1 0x560586ed7458 <unknown>\n#2 0x560586efa2e3 <unknown>\n#3 0x560586ef5e9f <unknown>\n#4 0x560586f2fb72 <unknown>\n#5 0x560586f29fd3 <unknown>\n#6 0x560586f00514 <unknown>\n#7 0x560586f01505 <unknown>\n#8 0x56058718ee2e <unknown>\n#9 0x5605871a4886 <unknown>\n#10 0x56058718fd75 <unknown>\n#11 0x5605871a5d94 <unknown>\n#12 0x5605871868eb <unknown>\n#13 0x5605871c0cd8 <unknown>\n#14 0x5605871c0e58 <unknown>\n#15 0x5605871dadfd <unknown>\n#16 0x7f69c4842609 start_thread\n",
+        "time" : {
+          "start" : 1629717855112,
+          "stop" : 1629717855317,
+          "duration" : 205
+        }
+      }, {
+        "uid" : "3e08ea2c6e99dd0a",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/4//#testresult/3e08ea2c6e99dd0a",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.244', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564cf6a4ca63 <unknown>\n#1 0x564cf67c1458 <unknown>\n#2 0x564cf67e42e3 <unknown>\n#3 0x564cf67dfe9f <unknown>\n#4 0x564cf6819b72 <unknown>\n#5 0x564cf6813fd3 <unknown>\n#6 0x564cf67ea514 <unknown>\n#7 0x564cf67eb505 <unknown>\n#8 0x564cf6a78e2e <unknown>\n#9 0x564cf6a8e886 <unknown>\n#10 0x564cf6a79d75 <unknown>\n#11 0x564cf6a8fd94 <unknown>\n#12 0x564cf6a708eb <unknown>\n#13 0x564cf6aaacd8 <unknown>\n#14 0x564cf6aaae58 <unknown>\n#15 0x564cf6ac4dfd <unknown>\n#16 0x7f9a7b1dc609 start_thread\n",
+        "time" : {
+          "start" : 1629717639800,
+          "stop" : 1629717639958,
+          "duration" : 158
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ef5ef21c345bb712.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "87e53d9d119fec41",
+  "name" : "0 Regisztráció",
+  "time" : {
+    "start" : 1629725327532,
+    "stop" : 1629725327532,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ea558645c28ec006",
+  "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+  "time" : {
+    "start" : 1629725343340,
+    "stop" : 1629725353887,
+    "duration" : 10547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b75a61da89931df3",
+  "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+  "time" : {
+    "start" : 1629725358086,
+    "stop" : 1629725362496,
+    "duration" : 4410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c05e6bff539cb0c",
+  "name" : "3 Kijelentkezés",
+  "time" : {
+    "start" : 1629725353896,
+    "stop" : 1629725358084,
+    "duration" : 4188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9df9ee79e90b4713",
+  "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+  "time" : {
+    "start" : 1629725334344,
+    "stop" : 1629725343337,
+    "duration" : 8993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2a78f0093a90459",
+  "name" : "1 Bejelentkezés",
+  "time" : {
+    "start" : 1629725316703,
+    "stop" : 1629725322128,
+    "duration" : 5425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5ef21c345bb712",
+  "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+  "time" : {
+    "start" : 1629725294103,
+    "stop" : 1629725316686,
+    "duration" : 22583
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "953fa7d26f40b523",
+  "name" : "5 Adatok listázása - kiratás",
+  "time" : {
+    "start" : 1629725325217,
+    "stop" : 1629725327527,
+    "duration" : 2310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "369813081eb78d76",
+  "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+  "time" : {
+    "start" : 1629725322131,
+    "stop" : 1629725325214,
+    "duration" : 3083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8fc80378b197711",
+  "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+  "time" : {
+    "start" : 1629725259627,
+    "stop" : 1629725294023,
+    "duration" : 34396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7370ccd075d1f73",
+  "name" : "2 Bejelentkezés - adatok külső fileból",
+  "time" : {
+    "start" : 1629725327538,
+    "stop" : 1629725334340,
+    "duration" : 6802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
