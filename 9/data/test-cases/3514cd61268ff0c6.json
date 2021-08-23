@@ -1,0 +1,134 @@
+{
+  "uid" : "3514cd61268ff0c6",
+  "name" : "0 Regisztráció",
+  "fullName" : "WikiTest.testRegistration",
+  "historyId" : "6aac85c9dad35640fab97ad1ddc37d3c",
+  "time" : {
+    "start" : 1629723719155,
+    "stop" : 1629723719155,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void WikiTest.testRegistration() throws java.lang.InterruptedException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629723644394,
+      "stop" : 1629723644778,
+      "duration" : 384
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "4094@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WikiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WikiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "WikiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "55fcc269498f3a3c",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/8//#testresult/55fcc269498f3a3c",
+        "status" : "skipped",
+        "statusDetails" : "public void WikiTest.testRegistration() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1629720944771,
+          "stop" : 1629720944771,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6973ea4fdb0e3cba",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/7//#testresult/6973ea4fdb0e3cba",
+        "status" : "skipped",
+        "statusDetails" : "public void WikiTest.testRegistration() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1629718144359,
+          "stop" : 1629718144359,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1260c1ac8ffa5179",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/6//#testresult/1260c1ac8ffa5179",
+        "status" : "skipped",
+        "statusDetails" : "public void WikiTest.testRegistration() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1629717934433,
+          "stop" : 1629717934433,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e08bf30bb259ab4b",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/5//#testresult/e08bf30bb259ab4b",
+        "status" : "skipped",
+        "statusDetails" : "public void WikiTest.testRegistration() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1629717855870,
+          "stop" : 1629717855870,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cfec190630c8404a",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/4//#testresult/cfec190630c8404a",
+        "status" : "skipped",
+        "statusDetails" : "public void WikiTest.testRegistration() throws java.lang.InterruptedException is @Disabled",
+        "time" : {
+          "start" : 1629717640458,
+          "stop" : 1629717640458,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3514cd61268ff0c6.json",
+  "parameterValues" : [ ]
+}

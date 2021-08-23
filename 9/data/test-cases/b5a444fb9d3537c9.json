@@ -1,0 +1,162 @@
+{
+  "uid" : "b5a444fb9d3537c9",
+  "name" : "5 Adatok listázása - kiratás",
+  "fullName" : "WikiTest.testArtsMenuListing",
+  "historyId" : "e0181e600a1eb860be499032a9921e07",
+  "time" : {
+    "start" : 1629723717035,
+    "stop" : 1629723719150,
+    "duration" : 2115
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629723717036,
+      "stop" : 1629723717207,
+      "duration" : 171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629723644394,
+      "stop" : 1629723644778,
+      "duration" : 384
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629723719082,
+      "stop" : 1629723719150,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "4094@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WikiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WikiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testArtsMenuListing"
+  }, {
+    "name" : "suite",
+    "value" : "WikiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6f653b1c4cae7ff2",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/8//#testresult/6f653b1c4cae7ff2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629720942676,
+          "stop" : 1629720944766,
+          "duration" : 2090
+        }
+      }, {
+        "uid" : "414af4349cbaeb16",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/7//#testresult/414af4349cbaeb16",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55aa762fda63 <unknown>\n#1 0x55aa76072458 <unknown>\n#2 0x55aa760952e3 <unknown>\n#3 0x55aa76090e9f <unknown>\n#4 0x55aa760cab72 <unknown>\n#5 0x55aa760c4fd3 <unknown>\n#6 0x55aa7609b514 <unknown>\n#7 0x55aa7609c505 <unknown>\n#8 0x55aa76329e2e <unknown>\n#9 0x55aa7633f886 <unknown>\n#10 0x55aa7632ad75 <unknown>\n#11 0x55aa76340d94 <unknown>\n#12 0x55aa763218eb <unknown>\n#13 0x55aa7635bcd8 <unknown>\n#14 0x55aa7635be58 <unknown>\n#15 0x55aa76375dfd <unknown>\n#16 0x7f1ae5079609 start_thread\n",
+        "time" : {
+          "start" : 1629718144192,
+          "stop" : 1629718144334,
+          "duration" : 142
+        }
+      }, {
+        "uid" : "a6903c125bf1eb7c",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/6//#testresult/a6903c125bf1eb7c",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.160', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x556c19fe4a63 <unknown>\n#1 0x556c19d59458 <unknown>\n#2 0x556c19d7c2e3 <unknown>\n#3 0x556c19d77e9f <unknown>\n#4 0x556c19db1b72 <unknown>\n#5 0x556c19dabfd3 <unknown>\n#6 0x556c19d82514 <unknown>\n#7 0x556c19d83505 <unknown>\n#8 0x556c1a010e2e <unknown>\n#9 0x556c1a026886 <unknown>\n#10 0x556c1a011d75 <unknown>\n#11 0x556c1a027d94 <unknown>\n#12 0x556c1a0088eb <unknown>\n#13 0x556c1a042cd8 <unknown>\n#14 0x556c1a042e58 <unknown>\n#15 0x556c1a05cdfd <unknown>\n#16 0x7f09c1a2c609 start_thread\n",
+        "time" : {
+          "start" : 1629717934259,
+          "stop" : 1629717934422,
+          "duration" : 163
+        }
+      }, {
+        "uid" : "888718b4b21e89b6",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/5//#testresult/888718b4b21e89b6",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-980', ip: '10.1.1.29', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5645e05b9a63 <unknown>\n#1 0x5645e032e458 <unknown>\n#2 0x5645e03512e3 <unknown>\n#3 0x5645e034ce9f <unknown>\n#4 0x5645e0386b72 <unknown>\n#5 0x5645e0380fd3 <unknown>\n#6 0x5645e0357514 <unknown>\n#7 0x5645e0358505 <unknown>\n#8 0x5645e05e5e2e <unknown>\n#9 0x5645e05fb886 <unknown>\n#10 0x5645e05e6d75 <unknown>\n#11 0x5645e05fcd94 <unknown>\n#12 0x5645e05dd8eb <unknown>\n#13 0x5645e0617cd8 <unknown>\n#14 0x5645e0617e58 <unknown>\n#15 0x5645e0631dfd <unknown>\n#16 0x7f2b4f298609 start_thread\n",
+        "time" : {
+          "start" : 1629717855695,
+          "stop" : 1629717855851,
+          "duration" : 156
+        }
+      }, {
+        "uid" : "748b686d2ab6bd95",
+        "reportUrl" : "https://Csabi777.github.io/Vizsgaremek/4//#testresult/748b686d2ab6bd95",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.244', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56305d87ba63 <unknown>\n#1 0x56305d5f0458 <unknown>\n#2 0x56305d6132e3 <unknown>\n#3 0x56305d60ee9f <unknown>\n#4 0x56305d648b72 <unknown>\n#5 0x56305d642fd3 <unknown>\n#6 0x56305d619514 <unknown>\n#7 0x56305d61a505 <unknown>\n#8 0x56305d8a7e2e <unknown>\n#9 0x56305d8bd886 <unknown>\n#10 0x56305d8a8d75 <unknown>\n#11 0x56305d8bed94 <unknown>\n#12 0x56305d89f8eb <unknown>\n#13 0x56305d8d9cd8 <unknown>\n#14 0x56305d8d9e58 <unknown>\n#15 0x56305d8f3dfd <unknown>\n#16 0x7f4397732609 start_thread\n",
+        "time" : {
+          "start" : 1629717640304,
+          "stop" : 1629717640442,
+          "duration" : 138
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b5a444fb9d3537c9.json",
+  "parameterValues" : [ ]
+}

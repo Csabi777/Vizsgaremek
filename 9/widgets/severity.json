@@ -1,0 +1,111 @@
+[ {
+  "uid" : "b5a444fb9d3537c9",
+  "name" : "5 Adatok listázása - kiratás",
+  "time" : {
+    "start" : 1629723717035,
+    "stop" : 1629723719150,
+    "duration" : 2115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d915906d25529224",
+  "name" : "8 Meglévő adat modosítása - Betütípus cseréje",
+  "time" : {
+    "start" : 1629723745394,
+    "stop" : 1629723749663,
+    "duration" : 4269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7791273a63f9a16e",
+  "name" : "3 Kijelentkezés",
+  "time" : {
+    "start" : 1629723740743,
+    "stop" : 1629723745388,
+    "duration" : 4645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ecd51f2a15448fb",
+  "name" : "9 Adat törlése  - Belépés után a user oldalon az egyéni aláírás törlése",
+  "time" : {
+    "start" : 1629723723939,
+    "stop" : 1629723732475,
+    "duration" : 8536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2c0a5fb7005e47",
+  "name" : "6 Több oldalas bejárás - URL-ek mentése listába",
+  "time" : {
+    "start" : 1629723644821,
+    "stop" : 1629723679055,
+    "duration" : 34234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3514cd61268ff0c6",
+  "name" : "0 Regisztráció",
+  "time" : {
+    "start" : 1629723719155,
+    "stop" : 1629723719155,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cfcc10d735e20d78",
+  "name" : "7 Új adat bevitel - Belépés után a user oldalon egy új aláírás beállítása",
+  "time" : {
+    "start" : 1629723732477,
+    "stop" : 1629723740740,
+    "duration" : 8263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ce13229938c524c",
+  "name" : "1 Bejelentkezés",
+  "time" : {
+    "start" : 1629723709529,
+    "stop" : 1629723714045,
+    "duration" : 4516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df40114a7404cca3",
+  "name" : "4 Adatvédelmi nyilatkozat müvelet - szöveg mentése külső fileba",
+  "time" : {
+    "start" : 1629723714047,
+    "stop" : 1629723717032,
+    "duration" : 2985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2734b263bee964c",
+  "name" : "10 Adatok lementése felületről - Keresési oldalon egy adott szó megszámlálása",
+  "time" : {
+    "start" : 1629723679120,
+    "stop" : 1629723709523,
+    "duration" : 30403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11e814e40a12162c",
+  "name" : "2 Bejelentkezés - adatok külső fileból",
+  "time" : {
+    "start" : 1629723719163,
+    "stop" : 1629723723936,
+    "duration" : 4773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
